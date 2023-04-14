@@ -34,7 +34,7 @@ const displayPoetry = (data) => {
     span.addEventListener("click", showWordAlternatives);
   });
 
-  output.classList.remove("hidden");
+  output.classList.remove("output--hidden");
 
 };
 
