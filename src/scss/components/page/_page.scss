@@ -17,3 +17,30 @@
     transform: translateY(0);
   }
 }
+
+.output {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  padding: 20px;
+  font-size: 4.5vmin;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-color: $bg-color;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  .details {
+    margin-bottom: 20px;
+    padding: 10px;
+    line-height: 2;
+    border: 1px solid #000;
+  }
+  
+  &--hidden {
+    display: none;
+  }
+}
