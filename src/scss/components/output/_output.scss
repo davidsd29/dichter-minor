@@ -22,6 +22,7 @@ aside {
 			width: 100%;
 			margin: 10px;
 			cursor: pointer;
+			animation: idleAnim 2s ease-in-out infinite;
 
 			&:hover {
 				background-color: #dc143c;
@@ -29,4 +30,10 @@ aside {
 			}
 		}
 	}
+}
+
+@keyframes idleAnim {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0); }
 }
