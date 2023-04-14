@@ -33,6 +33,9 @@ const displayPoetry = (data) => {
   spans.forEach((span) => {
     span.addEventListener("click", showWordAlternatives);
   });
+
+  output.classList.remove("hidden");
+
 };
 
 const replaceWord = async (e) => {
